@@ -1,26 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Schoolbell", cursive;
+  background-color: #b3e7f6;
+}
+
+.font-luckiest {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.media-icon:hover svg path {
+  fill: #da291c;
+}
+
+.text-shadow {
+  text-shadow: 0px 5px 5px black;
+}
+
+@media (max-width: 768.98px) {
+  .media-icon svg {
+    width: 24px;
+    height: 24px;
+  }
 }
