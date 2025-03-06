@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const CustomMarquee = ({ myClass, parentClass }) => {
   return (
     <div
-      className={`flex items-center justify-center  bg-red-500 ${parentClass}`}
+      className={`flex items-center justify-center bg-red-500 relative z-10 ${parentClass}`}
     >
       <Marquee direction="left">
         {Marquee_List.map((obj, i) => (

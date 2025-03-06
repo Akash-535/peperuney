@@ -31,3 +31,24 @@ export const Marquee_List = [
   "$ PepeRuney",
   "$ PepeRuney",
 ];
+
+export const HOW_BUY_LIST = [
+  {
+    cardNumber: "01",
+    heading: "GET YOUR WALLET READY",
+    description:
+      "Set up Phantom Wallet and connect it to Solana. Make sure Solana’s locked and loaded as the active network.",
+  },
+  {
+    cardNumber: "02",
+    heading: "FUND YOUR WALLET",
+    description:
+      "Load up on SOL from Coinbase, Binance, or OKX. Double-check your wallet address—no room for slip-ups.",
+  },
+  {
+    cardNumber: "03",
+    heading: "GRAB THAT $PepeRuney",
+    description:
+      "Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!",
+  },
+];
