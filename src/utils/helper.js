@@ -52,3 +52,27 @@ export const HOW_BUY_LIST = [
       "Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!",
   },
 ];
+
+export const OUR_PARTNERS_LIST = [
+  {
+    image: "/assets/images/webp/stake-image.webp",
+    link: "https://stake.com",
+  },
+  {
+    image: "/assets/images/webp/materoa-img.webp",
+    link: "https://meteora.com",
+  },
+  {
+    image: "/assets/images/webp/kreator-ai-img.webp",
+    link: "https://kreator.ai",
+  },
+];
+
+export const MEME_GALLERY_LIST = [
+  "/assets/images/webp/meme-poster-one.webp",
+  "/assets/images/webp/meme-poster-two.webp",
+  "/assets/images/webp/meme-poster-three.webp",
+  "/assets/images/webp/meme-poster-one.webp",
+  "/assets/images/webp/meme-poster-two.webp",
+  "/assets/images/webp/meme-poster-three.webp",
+];
