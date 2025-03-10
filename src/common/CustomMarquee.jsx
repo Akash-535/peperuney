@@ -11,7 +11,7 @@ const CustomMarquee = ({ myClass, parentClass }) => {
         {Marquee_List.map((obj, i) => (
           <p
             key={i}
-            className={`text-[40px] py-[30px] leading-[100%] font-normal font-luckiest pl-10 text-white text-shadow max-lg:text-3xl max-md:text-2xl max-md:py-5 ${myClass}`}
+            className={`text-[40px] py-[30px] leading-[100%] font-normal font-luckiest pl-10 text-white text-shadow-marquee max-lg:text-3xl max-md:text-2xl max-md:py-5 ${myClass}`}
           >
             {obj}
           </p>

@@ -40,7 +40,7 @@ const MeetPeperuney = () => {
         src="/assets/images/webp/cloud-img-three.webp"
         alt="cloud"
       />
-      <div className="sticky -top-[20%] min-h-[1031px] pt-[264px] max-xl:-top-[60%] max-lg:pb-[300px] max-xl:pt-60 max-lg:pt-52 max-md:pt-48">
+      <div className="sticky -top-[20%] min-h-[1031px] pt-[264px] max-xl:-top-[40%] max-lg:pb-[200px] max-xl:pt-60 max-lg:pt-52 max-md:pt-48">
         <div className="flex w-full sticky top-0 max-xl:flex-col-reverse px-5">
           <Image
             width={580}
@@ -50,7 +50,7 @@ const MeetPeperuney = () => {
             alt="image"
           />
           <div className="w-7/12 max-xl:w-full flex flex-col items-center justify-center">
-            <h2 className="text-[80px] font-luckiest text-white text-center max-xl:text-6xl max-lg:text-[52px] max-xl:pb-3">
+            <h2 className="text-[80px] font-luckiest text-shadow text-white text-center max-xl:text-6xl max-lg:text-[52px] max-xl:pb-3">
               MEET PepeRuney
             </h2>
             <div className="relative w-full min-h-[509px] max-w-[715px] flex flex-col items-center justify-center pt-4 pl-16 pr-10 pb-2 max-lg:pr-6 max-md:pl-4 max-md:pr-2.5 max-md:min-h-[540px]">

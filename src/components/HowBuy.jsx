@@ -5,7 +5,7 @@ import React from "react";
 
 const HowBuy = () => {
   return (
-    <div className="bg-[#06754E] relative z-10">
+    <div className="bg-[#06754E] relative z-10 ">
       <Image
         width={1841}
         height={195}
@@ -15,7 +15,7 @@ const HowBuy = () => {
       />
       <div className="bg-white min-h-srceen pt-[50px] -mt-0.5">
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-[80px] font-luckiest text-center max-xl:text-6xl max-lg:text-[52px]">
+          <h2 className="text-[80px] font-luckiest text-center max-xl:text-6xl max-lg:text-[52px] text-shadow text-white">
             how to buy{" "}
           </h2>{" "}
           <Image

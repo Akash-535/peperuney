@@ -3,7 +3,7 @@ import React from "react";
 
 const CityShop = () => {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative ">
       <Image
         width={1440}
         height={897}
