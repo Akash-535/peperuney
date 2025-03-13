@@ -14,12 +14,17 @@ body {
   font-family: "Luckiest Guy", cursive;
 }
 
-.media-icon:hover svg path {
+.media-icon:hover svg path,
+.footer-media-icon:hover svg path {
   fill: #da291c;
 }
 
 .copy-icon:hover svg path {
   fill: black;
+}
+
+.solana-icon:hover svg path {
+  fill: white;
 }
 
 .text-shadow-marquee {
@@ -39,6 +44,11 @@ body {
   display: flex;
   max-width: 819px;
   margin-left: auto;
+}
+
+.footer-media-icon svg {
+  width: 39.66px;
+  height: 39.66px;
 }
 
 @media (max-width: 768.98px) {

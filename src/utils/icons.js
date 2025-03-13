@@ -97,3 +97,81 @@ export const COMPANY_ICON_LIST = [
   "/assets/images/webp/dex-screener.webp",
   "/assets/images/webp/dex-tools.webp",
 ];
+
+export const MinusIcon = () => (
+  <svg
+    width="16"
+    height="15"
+    viewBox="0 0 16 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clipPath="url(#clip0_5350_2)">
+      <path
+        d="M0.613281 7.53564H15.3868"
+        stroke="white"
+        strokeWidth="1.47735"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_5350_2">
+        <rect
+          width="14.7735"
+          height="14.7735"
+          fill="white"
+          transform="translate(0.613281 0.0463867)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const PlusIcon = () => (
+  <svg
+    width="16"
+    height="15"
+    viewBox="0 0 16 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clipPath="url(#clip0_5350_5)">
+      <path
+        d="M7.89734 0.0463867V14.8199"
+        stroke="white"
+        strokeWidth="1.47735"
+      />
+      <path
+        d="M0.613281 7.53564H15.3868"
+        stroke="white"
+        strokeWidth="1.47735"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_5350_5">
+        <rect
+          width="14.7735"
+          height="14.7735"
+          fill="white"
+          transform="translate(0.613281 0.0463867)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const FormkitSolanaIcon = () => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M2.45003 6.76023H12.04C12.16 6.76023 12.27 6.81023 12.36 6.90023L13.88 8.46023C14.16 8.75023 13.96 9.24023 13.56 9.24023H3.97003C3.85003 9.24023 3.74003 9.19024 3.65003 9.10023L2.13003 7.54023C1.85003 7.25023 2.05003 6.76023 2.45003 6.76023ZM2.13003 4.69023L3.65003 3.13023C3.73003 3.04023 3.85003 2.99023 3.97003 2.99023H13.55C13.95 2.99023 14.15 3.48023 13.87 3.77023L12.36 5.33023C12.28 5.42023 12.16 5.47023 12.04 5.47023H2.45003C2.05003 5.47023 1.85003 4.98023 2.13003 4.69023ZM13.87 11.3002L12.35 12.8602C12.26 12.9502 12.15 13.0002 12.03 13.0002H2.45003C2.05003 13.0002 1.85003 12.5102 2.13003 12.2202L3.65003 10.6602C3.73003 10.5702 3.85003 10.5202 3.97003 10.5202H13.55C13.95 10.5202 14.15 11.0102 13.87 11.3002Z"
+      fill="black"
+    />
+  </svg>
+);

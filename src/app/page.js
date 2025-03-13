@@ -1,7 +1,9 @@
 import CustomMarquee from "@/common/CustomMarquee";
 import ClickToEarn from "@/components/ClickToEarn";
+import FAQ from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import HowBuy from "@/components/HowBuy";
+import JoinCulture from "@/components/JoinCulture";
 import MeetPeperuney from "@/components/MeetPeperuney";
 import MemeGallery from "@/components/MemeGallery";
 import OurPartners from "@/components/OurPartners";
@@ -20,9 +22,14 @@ export default function Home() {
       <Pizzanomics />
       <CustomMarquee parentClass="max-w-[1920px] mx-auto" />
       <ClickToEarn />
-      <Toons />
-      <OurPartners />
-      {/* <MemeGallery /> */}
+      <div className="min-h-screen relative">
+        <Toons />
+        <OurPartners />
+      </div>
+      <MemeGallery />
+      <CustomMarquee parentClass="!bg-[#06754E] max-w-[1920px] mx-auto" />
+      <FAQ />
+      <JoinCulture />
     </>
   );
 }

@@ -76,3 +76,11 @@ export const MEME_GALLERY_LIST = [
   "/assets/images/webp/meme-poster-two.webp",
   "/assets/images/webp/meme-poster-three.webp",
 ];
+
+export const FAQ_LIST = [
+  "How does the burn mechanism work?",
+  "How can I get ivolved in the community?",
+  "How does multi-chain aspect of $%Peperuney work",
+  "What is the Pizzaruney Arcade?",
+  "Wen Airdrops?",
+];
