@@ -14,6 +14,11 @@ body {
   font-family: "Luckiest Guy", cursive;
 }
 
+.media-icon svg path,
+.footer-media-icon svg path {
+  transition: all 300ms linear;
+}
+
 .media-icon:hover svg path,
 .footer-media-icon:hover svg path {
   fill: #da291c;

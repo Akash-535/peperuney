@@ -84,3 +84,18 @@ export const FAQ_LIST = [
   "What is the Pizzaruney Arcade?",
   "Wen Airdrops?",
 ];
+
+export const COMPANY_ICON_LIST = [
+  {
+    icon: "/assets/images/webp/coin-gecko.webp",
+    link: "https://www.coingecko.com/",
+  },
+  {
+    icon: "/assets/images/webp/dex-screener.webp",
+    link: "https://dexscreener.com/",
+  },
+  {
+    icon: "/assets/images/webp/dex-tools.webp",
+    link: "https://www.dextools.io/app/en/pairs",
+  },
+];

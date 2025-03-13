@@ -11,7 +11,7 @@ const Header = () => {
         <Image
           width={262}
           height={75}
-          className="max-w-[262px] object-cover max-lg:w-full"
+          className="max-w-[262px] object-cover max-lg:w-full hover:scale-105 duration-300 ease-linear"
           src="/assets/images/webp/logo.webp"
           alt="logo"
         />

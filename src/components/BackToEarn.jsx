@@ -1,6 +1,6 @@
-import CustomMarquee from "@/common/CustomMarquee";
-import { COMPANY_ICON_LIST } from "@/utils/icons";
+import { COMPANY_ICON_LIST } from "@/utils/helper";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const BackToEarn = ({ myClass }) => {
@@ -43,15 +43,15 @@ const BackToEarn = ({ myClass }) => {
         <div className="w-full absolute bottom-0 bg-[url(/assets/images/webp/table-pizzanomics.webp)] bg-cover bg-center bg-no-repeat min-h-[534px] flex justify-center items-end">
           <div className="flex gap-14 pb-10 flex-wrap max-lg:bg-gradient-to-b max-lg:from-[#A22F27] max-lg:to-[#3C110E] max-lg:gap-9 max-lg:pt-9 max-lg:pb-20 max-lg:justify-center">
             {COMPANY_ICON_LIST.map((obj, i) => (
-              <div key={i} className="">
+              <Link key={i} href={obj.link} target="_blank">
                 <Image
                   width={360}
                   height={140}
                   className="cursor-pointer hover:scale-110 duration-300 ease-linear max-lg:w-[236px]"
-                  src={obj}
+                  src={obj.icon}
                   alt="company icon"
                 />
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -93,15 +93,15 @@ const BackToEarn = ({ myClass }) => {
         />
         <div className="flex gap-14 w-full pb-10 relative z-10 flex-wrap max-lg:bg-gradient-to-b max-lg:from-[#A22F27] max-lg:to-[#3C110E] max-lg:gap-9 pt-9 max-lg:pb-20 max-lg:justify-center">
           {COMPANY_ICON_LIST.map((obj, i) => (
-            <div key={i} className="">
+            <Link key={i} href={obj.link} target="_blank">
               <Image
                 width={360}
                 height={140}
                 className="cursor-pointer hover:scale-110 duration-300 ease-linear max-lg:w-[236px]"
-                src={obj}
+                src={obj.icon}
                 alt="company icon"
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

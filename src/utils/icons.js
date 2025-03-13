@@ -92,12 +92,6 @@ export const DropDownIcon = () => (
   </svg>
 );
 
-export const COMPANY_ICON_LIST = [
-  "/assets/images/webp/coin-gecko.webp",
-  "/assets/images/webp/dex-screener.webp",
-  "/assets/images/webp/dex-tools.webp",
-];
-
 export const MinusIcon = () => (
   <svg
     width="16"
