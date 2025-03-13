@@ -22,10 +22,8 @@ export default function Home() {
       <Pizzanomics />
       <CustomMarquee parentClass="max-w-[1920px] mx-auto" />
       <ClickToEarn />
-      <div className="min-h-screen relative">
-        <Toons />
-        <OurPartners />
-      </div>
+      <Toons />
+      <OurPartners />
       <MemeGallery />
       <CustomMarquee parentClass="!bg-[#06754E] max-w-[1920px] mx-auto" />
       <FAQ />

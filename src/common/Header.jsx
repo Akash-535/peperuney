@@ -32,6 +32,7 @@ const Header = () => {
             <Link
               key={i}
               href={obj.link}
+              target="_blank"
               className="bg-[url(/assets/images/webp/icon-bg.webp)] w-full max-w-[77px] p-[17px_22px_18px_23px] media-icon hover:scale-105 duration-300 ease-linear max-lg:max-w-16 flex justify-center items-center max-md:px-4 max-md:pt-2 max-md:pb-1"
             >
               {obj.icon}

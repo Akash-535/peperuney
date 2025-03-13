@@ -20,6 +20,7 @@ const JoinCulture = () => {
               <Link
                 key={i}
                 href={obj.link}
+                target="_blank"
                 className="bg-[url(/assets/images/webp/icon-bg.webp)] w-full max-w-[100px] p-[23px_31px_25px_35px] bg-cover bg-no-repeat footer-media-icon hover:scale-105 duration-300 ease-linear flex justify-center items-center max-md:px-4 max-md:pt-2 max-md:pb-1"
               >
                 {obj.icon}
