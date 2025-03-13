@@ -5,8 +5,8 @@ import React from "react";
 
 const OurPartners = () => {
   return (
-    <div className="min-h-[822px] bg-[url(/assets/images/webp/shutter-gate.webp)] max-[1410px]:bg-cover 2xl:bg-cover bg-contain w-full max-w-[1920px] mx-auto bg-no-repeat flex justify-center items-center flex-col max-lg:pb-[60px] max-lg:pt-16 relative z-10">
-      <div className="flex flex-col justify-center items-center w-full ">
+    <div className="min-h-[822px] bg-[url(/assets/images/webp/shutter-gate.webp)] max-[1410px]:bg-cover 2xl:bg-cover bg-contain w-full max-w-[1920px] mx-auto bg-no-repeat bg-center flex items-center flex-col max-lg:pb-[60px] max-lg:pt-16 relative z-10">
+      <div className="flex flex-col pt-[113px] items-center w-full max-lg:pt-20 max-md:pt-16">
         <h2 className="text-white text-[80px] font-luckiest uppercase leading-[100%] text-shadow text-center max-lg:text-6xl max-md:text-[52px] max-md:max-w-[277px] mx-auto">
           our partners
         </h2>

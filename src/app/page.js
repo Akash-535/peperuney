@@ -1,3 +1,4 @@
+import BackToTop from "@/common/BackToTop";
 import CustomMarquee from "@/common/CustomMarquee";
 import ClickToEarn from "@/components/ClickToEarn";
 import FAQ from "@/components/FAQ";
@@ -28,6 +29,7 @@ export default function Home() {
       <CustomMarquee parentClass="!bg-[#06754E] max-w-[1920px] mx-auto" />
       <FAQ />
       <JoinCulture />
+      <BackToTop />
     </>
   );
 }
