@@ -1,5 +1,6 @@
 import BackToTop from "@/common/BackToTop";
 import CustomMarquee from "@/common/CustomMarquee";
+import Preloader from "@/common/Preloader";
 import ClickToEarn from "@/components/ClickToEarn";
 import FAQ from "@/components/FAQ";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+      <Preloader />
       <Hero />
       <CustomMarquee />
       <MeetPeperuney />
