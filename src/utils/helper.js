@@ -3,12 +3,12 @@ import { DiscordIcon, MediaIconBg, TelegramIcon, TwitterIcon } from "./icons";
 export const MEDIA_ICON_LIST = [
   {
     icon: <TwitterIcon />,
-    link: "https://x.com",
+    link: "https://x.com/peperuneypizza",
     background: <MediaIconBg />,
   },
   {
     icon: <TelegramIcon />,
-    link: "https://telegram.com",
+    link: "https://t.me/PepeRuneyUpdates",
     background: <MediaIconBg />,
   },
   {

@@ -23,7 +23,7 @@ const Header = () => {
         />
       </Link>
       <div className="flex gap-10 justify-end items-center max-lg:gap-7 max-md:gap-4 max-sm:gap-2">
-        <div className="flex items-center gap-3 cursor-pointer max-md:gap-1.5 group pb-2">
+        <div className="flex items-center gap-3 cursor-pointer max-md:gap-1.5 group pb-2 mt-2">
           <div>
             <Image
               width={41}
@@ -46,7 +46,6 @@ const Header = () => {
           </div>
         </div>
         <div className="flex gap-2 max-md:gap-1">
-          {/* Media Icons */}
           {MEDIA_ICON_LIST.map((obj, i) => (
             <Link
               key={i}
