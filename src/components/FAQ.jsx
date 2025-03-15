@@ -37,10 +37,10 @@ const FAQ = () => {
                 </p>
                 <span
                   className={` duration-500 ease-linear ${
-                    open === i ? "rotate-90" : "rotate-0"
+                    open === i ? "rotate-180" : "rotate-90"
                   }`}
                 >
-                  {open === i ? <PlusIcon /> : <MinusIcon />}
+                  {open === i ? <MinusIcon /> : <PlusIcon />}
                 </span>
               </div>
               <div

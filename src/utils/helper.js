@@ -32,6 +32,13 @@ export const Marquee_List = [
   "$ PepeRuney",
 ];
 
+export const FLAGS_LIST = [
+  "/assets/images/webp/eng-flag.webp",
+  "/assets/images/webp/india-flag.webp",
+  "/assets/images/webp/american-flag.webp",
+  "/assets/images/webp/japan-flag.webp",
+];
+
 export const HOW_BUY_LIST = [
   {
     cardNumber: "01",

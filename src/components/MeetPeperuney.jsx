@@ -40,7 +40,7 @@ const MeetPeperuney = () => {
         src="/assets/images/webp/cloud-img-three.webp"
         alt="cloud"
       />
-      <div className="sticky -top-[20%] min-h-[1031px] pt-[264px] max-xl:-top-[40%] max-lg:pb-[200px] max-xl:pt-60 max-lg:pt-52 max-md:pt-48">
+      <div className="sticky -top-[20%] min-h-[1031px] pt-[264px] xl:pb-[345px] max-xl:-top-[40%] max-lg:pb-[200px] max-xl:pt-60 max-lg:pt-52 max-md:pt-48">
         <div className="flex w-full sticky top-0 max-xl:flex-col-reverse px-5">
           <Image
             width={580}
